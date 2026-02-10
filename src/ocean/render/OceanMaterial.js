@@ -238,7 +238,7 @@ export const createOceanMaterial = ({ displacementMap, normalMap, simSize }) => 
       }
     `,
     transparent: false,
-    depthWrite: false,
+    depthWrite: true,
     depthTest: true,
   });
   material.name = 'OceanSurfaceMaterial';

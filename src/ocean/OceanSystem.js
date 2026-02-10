@@ -9,7 +9,7 @@ export const QUALITY_PRESETS = {
     simulationSize: 840,
     levelSizes: [224, 448, 896, 1792, 3584, 7168, 14336],
     baseCellSize: 1.75,
-    ringOverlap: 0.4,
+    ringOverlap: 0.2,
     displacementScale: 0.95,
   },
   balanced: {
@@ -17,7 +17,7 @@ export const QUALITY_PRESETS = {
     simulationSize: 980,
     levelSizes: [256, 512, 1024, 2048, 4096, 8192, 16384],
     baseCellSize: 1.2,
-    ringOverlap: 0.5,
+    ringOverlap: 0.24,
     displacementScale: 1.1,
   },
   cinematic: {
@@ -25,7 +25,7 @@ export const QUALITY_PRESETS = {
     simulationSize: 1180,
     levelSizes: [320, 640, 1280, 2560, 5120, 10240, 20480],
     baseCellSize: 0.95,
-    ringOverlap: 0.6,
+    ringOverlap: 0.28,
     displacementScale: 1.24,
   },
 };
